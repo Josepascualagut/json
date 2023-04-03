@@ -1,0 +1,46 @@
+
+{
+        "Clase": [
+      {
+        "id": "C1" ,
+        "Clase": "e1",
+        "Asignatura" : "MAGIA",
+        "lugar": "Colegio Hogwarts de Magia y Hechicería",
+        "año de fundacion": "1915",
+        "Alumnos": [
+          {
+            "id": "C1",
+            "Clase": "e1",
+            "imagen": "https://upload.wikimedia.org/wikipedia/id/thumb/2/21/Daniel_Radcliffe_di_film_Harry_Potter_and_The_Order_of_Phoenix.jpg/800px-Daniel_Radcliffe_di_film_Harry_Potter_and_The_Order_of_Phoenix.jpg",
+            "nombreAlumno": "Carlos Santana",
+            "edad": "14",
+            "numero estudiante": "125485985"
+          },              
+          {
+            "id": "C1",
+            "Clase": "e1",
+            "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fharrypotter.fandom.com%2Fes%2Fwiki%2FHarry_Potter&psig=AOvVaw0c8oSBaZA-ewFZnF1uGhyR&ust=1680366325551000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjT9cDKhv4CFQAAAAAdAAAAABAE.jpg",
+            "nombreAlumno": "Josep gayo",
+            "edad": "15",
+            "numero estudiante": "345485985"
+          },              
+          {
+            "id": "C1",
+            "Clase": "e1",
+            "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fharrypotter.fandom.com%2Fes%2Fwiki%2FHarry_Potter&psig=AOvVaw0c8oSBaZA-ewFZnF1uGhyR&ust=1680366325551000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjT9cDKhv4CFQAAAAAdAAAAABAE.jpg",
+            "nombreAlumno": "Manuel manolo",
+            "edad": "16",
+            "numero estudiante": "289485985"
+          },              
+          {
+            "id": "C1",
+            "Clase": "e1",
+            "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fharrypotter.fandom.com%2Fes%2Fwiki%2FHarry_Potter&psig=AOvVaw0c8oSBaZA-ewFZnF1uGhyR&ust=1680366325551000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjT9cDKhv4CFQAAAAAdAAAAABAE.jpg",
+            "nombreAlumno": "Hector garcia",
+            "edad": "14",
+            "numero estudiante": "2514485985"
+          }              
+        ]
+      }
+    ]
+  }
