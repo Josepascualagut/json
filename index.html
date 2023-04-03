@@ -41,7 +41,7 @@
 
 
         <script id="alumno_template"  type="text/x-jsrender">
-            {{for Clase[0].alumnos}}
+            {{for alumnos}}
             <tr>
                 <td>
                     <img src="{{:imagen}}" alt="" width="400" height="400">
@@ -63,15 +63,20 @@
                 </td>
             </tr>
             {{/for}}
+
+        </script>
+        
+    </tbody>
+</table>
         </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.12/jsrender.min.js"></script>
         <script>
-            $.getJSON("https://raw.githubusercontent.com/Josepascualagut/json/master/jasone.json?token=GHSAT0AAAAAACAOZF7UOLUYDJMLPVTZELUCZBK34PQ"), (data) => {
+            $.getJSON("https://raw.githubusercontent.com/Josepascualagut/json/master/jasone.json?token=GHSAT0AAAAAACAOZF7V3I5FTZZBTJB5NNPAZBK4D7Q"), (data) => {
 
 
-                   $("#app").html($.templates("#_template").render(data));
-                });
+                   $("#app").html($.templates("#alumno_template").render(data));
+                };
                 
         </script>
 
